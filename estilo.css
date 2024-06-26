@@ -1,0 +1,99 @@
+* {
+    dimensionamento de caixa : caixa de borda;
+  }
+
+  . linha :: depois de {
+    contente :  "" ;
+    limpar ambos ;
+    exibição : bloco;
+  }
+
+  [ classe *= "col-" ] {
+    flutuar : esquerda;
+    preenchimento :  15 px ;
+  }
+
+  HTML {
+    família de fontes :  "Lucida Sans" , sem serifa;
+  }
+
+  . cabeçalho {
+    cor de fundo :  # 024218 ;
+    cor :  #ffffff ;​
+    preenchimento :  15 px ;
+  }
+
+  . menuul  {​
+    tipo de estilo de lista : nenhum;
+    margem :  0 ;
+    preenchimento :  0 ;
+  }
+
+  . cardápio  li {
+    preenchimento :  8 px ;
+    margem inferior :  7 px ;
+    cor de fundo :  # 05a52b ;
+    cor :  #ffffff ;​
+    sombra de caixa :  0  1 px  3 px  rgba ( 0 , 0 , 0 , 0,12 ) ,  0  1 px  2 px  rgba ( 0 , 0 , 0 , 0,24 );
+  }
+
+  . menu  li : passar o mouse {
+    cor de fundo :  # 064513 ;
+  }
+
+  . aparte {
+    cor de fundo :  # 064513 ;
+    preenchimento :  15 px ;
+    cor :  #ffffff ;​
+    alinhamento de texto : centro;
+    tamanho da fonte :  14 px ;
+    sombra de caixa :  0  1 px  3 px  rgba ( 0 , 0 , 0 , 0,12 ) ,  0  1 px  2 px  rgba ( 0 , 0 , 0 , 0,24 );
+  }
+
+  . rodapé {
+    cor de fundo :  # 024829 ;
+    cor :  #ffffff ;​
+    alinhamento de texto : centro;
+    tamanho da fonte :  12 px ;
+    preenchimento :  15 px ;
+  }
+
+  /* Para celulares: */
+  [ classe *= "col-" ] {
+      largura :  100 % ;
+    }
+
+     Tela @media somente e ( largura mínima :  600 px ) {
+      /* Para tabela7 */
+      . col-s-1 { largura :  8,33 % ;}
+      . col-s-2 { largura :  16,66 % ;}
+      . col-s-3 { largura :  25 % ;}
+      . col-s-4 { largura :  33,33 % ;}
+      . col-s-5 { largura :  41,66 % ;}
+      . col-s-6 { largura :  50 % ;}
+      . col-s-7 { largura :  58,33 % ;}
+      . col-s-8 { largura :  66,66 % ;}
+      . col-s-9 { largura :  75 % ;}
+      . col-s-10 { largura :  83,33 % ;}
+      . col-s-11 { largura :  91,66 % ;}
+      . col-s-12 { largura :  100 % ;}
+
+      }
+
+
+     Tela @media somente e ( largura mínima :  768 px ) {
+  /* Para desktop: */
+  . col-1 { largura :  8,33 % ;}
+  . col-2 { largura :  16,66 % ;}
+  . col-3 { largura :  25 % ;}
+  . col-4 { largura :  33,33 % ;}
+  . col-5 { largura :  41,66 % ;}
+  . col-6 { largura :  50 % ;}
+  . col-7 { largura :  58,33 % ;}
+  . col-8 { largura :  66,66 % ;}
+  . col-9 { largura :  75 % ;}
+  . col-10 { largura :  83,33 % ;}
+  . col-11 { largura :  91,66 % ;}
+  . col-12 { largura :  100 % ;}
+
+  }
